@@ -145,7 +145,7 @@ export const ServicePage = () => {
 																Стоимость от <span className='font-semibold text-base'>{elem.price} BYN</span>
 															</p>
 															<p className='text-xs'>
-																время работы от <span className=''>{elem.time}</span>
+															срок выполнения: <span className='text-base'>{elem.time}</span>
 															</p>
 															<Divider />
 														</li>
@@ -205,7 +205,7 @@ export const ServicePage = () => {
 																		Стоимость от <span className='font-semibold text-base'>{elem.price} BYN</span>
 																	</p>
 																	<p className='text-sm'>
-																		время работы от <span className=''>{elem.time}</span>
+																	срок выполнения: <span className='text-base'>{elem.time}</span>
 																	</p>
 																	<Divider />
 																</li>
@@ -252,10 +252,7 @@ export const ServicePage = () => {
 														/>
 													</motion.div>
 
-
-
-													<ul className='font-light list-disc'>
-
+													<ul className='font-light list-disc mt-8'>
 														{el.list.map((elem, idx) => {
 															return (
 																<li className='mb-2' key={idx}>
@@ -269,7 +266,7 @@ export const ServicePage = () => {
 																		Стоимость от <span className='font-semibold text-base'>{elem.price} BYN</span>
 																	</p>
 																	<p className='text-sm'>
-																		время работы от <span className=''>{elem.time}</span>
+																	срок выполнения: <span className='text-base'>{elem.time}</span>
 																	</p>
 																	<Divider />
 																</li>

@@ -49,7 +49,7 @@ export const Portfolio = () => {
 									muted
 									loop
 									defaultMuted
-									className='rounded-lg mt-3'
+									className='rounded-lg m-auto'
 								/>
 								
 									:

@@ -120,7 +120,7 @@ export const MainPage = () => {
 				}}
 			>
 				
-					<FloatButton icon={<PhoneOutlined />} type="primary" href='tel:80296480208' />
+					<FloatButton icon={<PhoneOutlined />} type="link" href='tel:80296480208' style={{background:'#97DF38'}} />
 			
 				<FloatButton.BackTop />
 			</FloatButton.Group>

@@ -158,7 +158,7 @@ export const ServicePage = () => {
 											<Tag
 												color="green"
 												onClick={() => showModal('Стоимость и сроки')}
-
+												className='cursor-pointer'
 											>
 												узнать стоимость и сроки
 											</Tag>
@@ -218,7 +218,7 @@ export const ServicePage = () => {
 													<Tag
 														color="green"
 														onClick={() => showModal('Стоимость и сроки')}
-
+														className='cursor-pointer'
 													>
 														узнать стоимость и сроки
 													</Tag>
@@ -282,6 +282,7 @@ export const ServicePage = () => {
 													<Tag
 														color="green"
 														onClick={() => showModal('Стоимость и сроки')}
+														className='cursor-pointer'
 													>
 														узнать стоимость и сроки
 													</Tag>
@@ -293,7 +294,7 @@ export const ServicePage = () => {
 									}
 								</div>
 
-							
+
 
 								<Portfolio />
 

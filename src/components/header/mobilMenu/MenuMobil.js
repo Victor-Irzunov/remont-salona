@@ -44,7 +44,7 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
-						<Link to='/uslugi/bani-i-sauni'
+						<Link to='/uslugi/peretyazhka-rulya'
 							className="cursor-pointe"
 							onClick={onClose}
 							style={{ color: '#000' }}
@@ -54,7 +54,7 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
-						<Link to='/uslugi/pechi-i-kamini'
+						<Link to='/uslugi/peretyazhka-salona'
 
 							className="cursor-pointer"
 							onClick={onClose}
@@ -65,7 +65,7 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
-						<Link to='/uslugi/remont-krishi'
+						<Link to='/uslugi/peretyazhka-potolka'
 							className="cursor-pointer"
 							onClick={onClose}
 							style={{ color: '#000' }}
@@ -76,7 +76,7 @@ export const MenuMobil = ({ onClose }) => {
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 			
 					<li>
-						<Link to='/uslugi/remont-krishi'
+						<Link to='/uslugi/peretyazhka-ruchki-kpp'
 							className="cursor-pointer"
 							onClick={onClose}
 							style={{ color: '#000' }}
@@ -87,7 +87,7 @@ export const MenuMobil = ({ onClose }) => {
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 			
 					<li>
-						<Link to='/uslugi/remont-krishi'
+						<Link to='/uslugi/peretyazhka-torpedo'
 							className="cursor-pointer"
 							onClick={onClose}
 							style={{ color: '#000' }}
@@ -97,7 +97,7 @@ export const MenuMobil = ({ onClose }) => {
 					</li>
 					<Divider style={{ marginTop: '7px', marginBottom: '7px' }} />
 					<li>
-						<Link to='/uslugi/remont-krishi'
+						<Link to='/uslugi/remont-salona'
 							className="cursor-pointer"
 							onClick={onClose}
 							style={{ color: '#000' }}

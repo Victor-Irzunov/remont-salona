@@ -138,7 +138,7 @@ export const ServicePage = () => {
 															<p className='uppercase text-sm mb-4 font-semibold'>
 																{elem.b}
 															</p>
-															<p className='font-light text-sm'>
+															<p className='font-light text-xs'>
 																{elem.text}
 															</p>
 															<p className='uppercase text-xs'>

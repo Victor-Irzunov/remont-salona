@@ -195,7 +195,7 @@ export const ServicePage = () => {
 														{el.list.map((elem, idx) => {
 															return (
 																<li className='mb-2' key={idx}>
-																	<p className='uppercase text-sm mb-4'>
+																	<p className='uppercase text-sm mb-4 font-semibold'>
 																		{elem.b}
 																	</p>
 																	<p className='font-light'>
@@ -256,7 +256,7 @@ export const ServicePage = () => {
 														{el.list.map((elem, idx) => {
 															return (
 																<li className='mb-2' key={idx}>
-																	<p className='uppercase text-sm mb-4'>
+																	<p className='uppercase text-sm mb-4 font-semibold'>
 																		{elem.b}
 																	</p>
 																	<p className='font-light'>

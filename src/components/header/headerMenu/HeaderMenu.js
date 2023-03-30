@@ -147,43 +147,51 @@ export const HeaderMenu = ({ isVisible, setHover, hover }) => {
 											<div className=' text-[#AFD93B] pt-10 text-sm border-t-white font-light flex justify-between items-start'>
 												<ul className='h-full text-sm cursor-pointer'>
 													<li className='mb-5'>
-														<Link to='/uslugi/bani-i-sauni'
+														<Link to='/uslugi/peretyazhka-rulya'
 															className="cursor-pointe"
 															onClick={handleMouseLeave}
 														>
-															Строительство бань и саун
+															Перетяжка руля
 														</Link>
 													</li>
 													<li className='mb-5'>
-														<Link to='/uslugi/pechi-i-kamini'
+														<Link to='/uslugi/peretyazhka-salona'
 															onClick={handleMouseLeave}
 															className="cursor-pointer"
 														>
-															Кладка печь и каминов
+															Перетяжка салона
 														</Link>
 													</li>
 													<li className='mb-5'>
-														<Link to='/uslugi/elektrofizicheskie-izmereniya'
+														<Link to='/uslugi/peretyazhka-potolka'
 															className="cursor-pointer"
 															onClick={handleMouseLeave}
 														>
-															Строительство и Ремонт крыш
+															Перетяжка потолка
 														</Link>
 													</li>
 													<li className='mb-5'>
-														<Link to='/uslugi/zabor'
+														<Link to='/uslugi/peretyazhka-ruchki-kpp'
 															className="cursor-pointer"
 															onClick={handleMouseLeave}
 														>
-															Строительство забора из металлопрофиля 
+															Перетяжка ручек, чехлов кпп 
 														</Link>
 													</li>
 													<li className='mb-5'>
-														<Link to='/uslugi/santekhnik'
+														<Link to='/uslugi/peretyazhka-torpedo'
 															className="cursor-pointer"
 															onClick={handleMouseLeave}
 														>
-															Услуги сантехника
+														Перетяжка торпедо
+														</Link>
+													</li>
+													<li className='mb-5'>
+														<Link to='/uslugi/remont-salona'
+															className="cursor-pointer"
+															onClick={handleMouseLeave}
+														>
+														Ремонт салона
 														</Link>
 													</li>
 													

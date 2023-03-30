@@ -24,14 +24,14 @@ export const HeaderInfo = ({ setIsVisible }) => {
 			{
 				screens.md
 					?
-					<div className='bg-gray-100'>
+					<div className='relative'>
 						<div className='container mx-auto px-10 flex justify-between items-center'>
 							<div className='flex justify-start items-center'>
 								<Image src={logo2} preview={false} width='220px' />
 							</div>
 
 
-							<div className='flex text-xl items-center font-light text-[#000]'>
+							<div className='flex text-xl items-center font-light text-[#f5f5f5]'>
 								<ClockCircleOutlined />
 								<span className='uppercase ml-2  mr-0.5'>принимаем звонки 09:00</span>
 								<span>-</span>
@@ -40,7 +40,7 @@ export const HeaderInfo = ({ setIsVisible }) => {
 
 
 							<div className=''>
-								<div className='flex text-lg text-[#000]'>
+								<div className='flex text-lg text-[#f5f5f5]'>
 									<PhoneOutlined className='rotate-90 mr-3 text-2xl' />
 									<div className='flex items-end'>
 										<a href='tel:80296480208' className='text-2xl'>+375 (29) 648-02-08</a>

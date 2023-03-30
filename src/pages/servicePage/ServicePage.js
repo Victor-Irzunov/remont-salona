@@ -310,6 +310,7 @@ export const ServicePage = () => {
 											>
 												<motion.div
 													variants={yAnimation}
+													className='container'
 												>
 													<h3 className='font-bold text-[#97DF38]'>
 														{elem.h4}

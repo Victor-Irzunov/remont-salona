@@ -48,14 +48,16 @@ export const MainPage = () => {
 			{/* <div className='w-full h-screen bg-cover fon bg-center'></div> */}
 			{
 				screens.md ?
-					<div className=''>
+					<div className='relative'>
 						<div className='container mx-auto px-10'>
 							{/* <CarouselComp /> */}
-							<div className='pt-6'>
-								<h1 className='text-2xl font-black uppercase tracking-wide'>Ремонт и перетяжка</h1>
+							<div className='pt-40'>
+								<h1 className='text-5xl text-[#97DF38] font-black uppercase tracking-wide'>Пошив и ремонт салона автомобиля</h1>
 
-								<p className='mt-6 font-light'>
-									Оказываем полный комплекс услуг на любых объектах под ключ в<span className='font-bold'> Могилеве и Могилевской области</span>
+								<p className='mt-6 font-light text-[#f5f5f5]'>
+								Перешьем руль, перетянем потолок,
+									отремонтируем сидения
+									<span className='font-bold'>в день обращения</span>
 								</p>
 							</div>
 

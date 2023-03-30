@@ -76,7 +76,7 @@ export const FooterComp = () => {
               variants={titleAnimation2}
               className='text-2xl font-extrabold uppercase'
             >
-              alexprostyle.by
+              aprostyle.by
             </motion.h2>
           </motion.div>
 

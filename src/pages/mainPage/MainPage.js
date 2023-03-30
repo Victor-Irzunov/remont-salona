@@ -55,7 +55,7 @@ export const MainPage = () => {
 								<h1 className='text-5xl text-[#97DF38] font-black uppercase tracking-wide'>Пошив и ремонт салона автомобиля</h1>
 
 								<p className='mt-6 font-light text-[#f5f5f5]'>
-								Перешьем руль, перетянем потолок,
+									Перешьем руль, перетянем потолок,
 									отремонтируем сидения
 									<span className='font-bold'>в день обращения</span>
 								</p>
@@ -119,7 +119,9 @@ export const MainPage = () => {
 					right: 15,
 				}}
 			>
-				<FloatButton icon={<PhoneOutlined className='' />} type="primary" />
+				
+					<FloatButton icon={<PhoneOutlined />} type="primary" href='tel:80296480208' />
+			
 				<FloatButton.BackTop />
 			</FloatButton.Group>
 
